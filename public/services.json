@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "General Health Checkup",
+        "price": 5000,
+        "details": "CBC ( Complete Blood Count),RBS ( Random Blood Sugar),Lipid Profile,SGPT,Serum Creatinine,HbsAg,TSH,Urine R/M/E,ECG,Chest X-ray P/A view,USG of Whole Abdomen,General Physical Examination",
+        "img": "../src/images/services/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Standard Health Screening Package",
+        "price": 7500,
+        "details": "Height & Weight,Body Mass Index (BMI),Physical Examination by Doctor,Complete Blood Count (CBC),Blood Sugar + CUS (Fasting & 2 Hours ABF),Serum Lipid Profile (Fasting),SGPT, HBsAg,Serum Uric Acid,Serum Creatinine,Urine R/M/E, ECG,X-Ray Chest P/A View,USG of whole abdomen,Echocardiogram",
+        "img": "../src/images/services/2.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Premier Health Screening Package",
+        "price": 10000,
+        "details": "Height & Weight,Body Mass Index (BMI),Physical Examination by Doctor,Complete Blood Count (CBC),Blood Grouping & Rh Factor,Blood Sugar + CUS (Fasting & 2 Hours ABF),Serum Lipid Profile (Fasting),HBsAg, TSH, Serum Uric Acid,Serum Creatinine, Blood Urea,Serum Electrolytes, Syrum Bilirubin,SGPT, Alkaline Phosphates,Urine R/M/E, ECG,X-Ray Chest P/A View,USG of whole abdomen,Echocardiogram",
+        "img": "../src/images/services/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Junior Executive Health Screening",
+        "price": 6800,
+        "details": "BMI( Body Composition Analysis),Physical Examination By Doctor,Complete Blood Count (CBC),Serum Lipid Profile ( Fasting),Serum Uric Acid,TSH,HBA1c,Blood Grouping & RH factor,Blood Urea,Serum Creatinine,Serum Electrolytes,Urine R/M/E,Electrocardiogram(ECG),X-Ray Chest P/A View,Nutritionist Advice,Complimentry Breakfast",
+        "img": "../src/images/services/4.png"
+    },
+    {
+        "id": 5,
+        "name": "Executive Health Screening",
+        "price": 7900,
+        "details": "BMI( Body Composition Analysis),Physical Examination By Doctor,Complete Blood Count (CBC),Serum Lipid Profile ( Fasting),Serum Uric Acid,TSH,HBA1c,HBsAg,Blood Urea,Serum Creatinine,Serum Electrolytes,Serum Bilirubin,SGPT,Alkaline Phosphate,Urine R/M/E,Electrocardiogram(ECG),X-ray Chest P/A View,Nutritionist Advice,Complementry Breakfast",
+        "img": "../src/images/services/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Senior Executive Health Screening",
+        "price": 14500,
+        "details": "BMI( Body Composition Analysis),Physical Examination By Doctor,Complete Blood Count (CBC),Serum Lipid Profile ( Fasting),Serum Uric Acid,TSH,HBA1c,PSA,AFP,Blood Urea,Serum Creatinine,Serum Electrolytes,Serum Bilirubin,SGPT,Alkaline Phosphate,Total Protein,A:G Ratio,Urine R/M/E,Electrocardiogram(ECG),X-ray Chest P/A View,USG of Whole Abdomen,Bone Densitometry,Nutritionist Advice,Complementry Breakfast",
+        "img": "../src/images/services/6.jpg"
+    }
+]

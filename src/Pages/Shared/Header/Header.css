@@ -1,0 +1,12 @@
+.nav-link{
+    color: #efeded;
+    border: 1px solid #efeded;
+    margin-right: 10px;
+}
+.nav-link:hover{
+color: #fff;
+border: 1px solid #fff;
+}
+.navbar-text {
+    margin-left: 10px;
+}
