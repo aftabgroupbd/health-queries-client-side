@@ -9,7 +9,6 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);
-    console.log(services);
     if (services.length === 0) {
         return <Spinner animation="border" variant="danger" />
     }

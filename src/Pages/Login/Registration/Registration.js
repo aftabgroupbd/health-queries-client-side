@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Col, Container, Form, Row, Button, Spinner } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
-import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, updateProfile, onAuthStateChanged } from "firebase/auth";
 const Registration = () => {
 
     const auth = getAuth();
@@ -55,13 +55,25 @@ const Registration = () => {
                     setError(error.message);
                     setIsLodaing(false);
                 });
-                history.push(redirectUrl)
+                history.push(redirectUrl);
+                window.location.reload();
             })
             .catch(error => {
                 setError(error.message);
                 setIsLodaing(false);
             })
     }
+    useEffect(() => {
+        const unsubscribed = onAuthStateChanged(auth, (user) => {
+            if (user) {
+                setUser(user);
+            } else {
+                setUser({});
+            }
+            setIsLodaing(false);
+        });
+        return () => unsubscribed;
+    }, []);
     return (
         <Container className="mt-4">
             <Row>
